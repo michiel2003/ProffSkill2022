@@ -251,30 +251,33 @@ a.article:hover {
     #sidebar {
         margin-left: 0;
     }
-    #sidebarCollapse span {
-        display: none;
-    }
 }
 
 .buttonBG{
     background-color: white;
     color: black;
+    border-color: black;
+    box-shadow: 0 0 0 0.2rem white;
     
 }
 
 .buttonBG:hover{
     background: black;
     color: white;
+    border-color: black;
+    box-shadow: 0 0 0 0.2rem black;
 }
 
 .buttonBGActive{
     background: black;
     color: white;
     border: white;
+    box-shadow: 0 0 0 0.2rem black;
 }
 
 .buttonBGActive:hover{
     background: white;
     color: black;
     border: black;
+    box-shadow: 0 0 0 0.2rem black;
 }
